@@ -13,5 +13,5 @@ class Person {
 }
 
 var tc = new Person("Tom", "Cruise", "123 Josephine ILY");
-document.getElementById("myName").innerHTML = tc.getFullName();
-document.getElementById("myAddress").innerHTML = tc.getAddress();
+document.getElementById("myName").innerText = tc.getFullName();
+document.getElementById("myAddress").innerText = tc.getAddress();

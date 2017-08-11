@@ -34,6 +34,6 @@ function addFriend() {
 
   friends[nameOfGirl].push(nameOfFriend);
 
-document.getElementById('friends').innerHTML = friends[]
+
 
 }
